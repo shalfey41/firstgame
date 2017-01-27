@@ -1,0 +1,10 @@
+.idea
+.vagrant
+.DS_Store
+.directory
+.ssh/
+*.bash_history
+*.sql
+node_modules
+npm-debug.log
+public

@@ -1,0 +1,52 @@
+{
+  "name": "boilerplate",
+  "description": "Start boilerplate",
+  "version": "1.0.0",
+  "author": "Dmitry Bezugly <bezugly.ru>",
+  "engines": {
+    "node": "6.9.4",
+    "npm": "3.10.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -w",
+    "build": "NODE_ENV=production webpack",
+    "start": "webpack-dev-server webpack -w"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "exports-loader": "^0.6.3",
+    "file-loader": "^0.9.0",
+    "image-webpack-loader": "^3.1.0",
+    "json-loader": "^0.5.4",
+    "less": "^2.7.2",
+    "less-loader": "^2.2.3",
+    "postcss-loader": "^1.2.2",
+    "style-loader": "^0.13.1",
+    "webpack-dev-server": "^1.16.2",
+    "webpack-notifier": "^1.5.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.6.1",
+    "clean-webpack-plugin": "^0.1.15",
+    "copy-webpack-plugin": "^4.0.1",
+    "createjs-combined": "^2015.11.26",
+    "es6-promise": "^3.2.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "normalize.css": "^5.0.0",
+    "webpack": "^1.14.0",
+    "whatwg-fetch": "^2.0.2"
+  }
+}
